@@ -33,41 +33,6 @@ Project ini dibuat menggunakan:
 
 ## 💾 Penyimpanan Data
 Semua data catatan disimpan di:
-# 📝 MyNotes App
-
-MyNotes App adalah aplikasi catatan sederhana berbasis web yang aku buat sebagai latihan sekaligus project CRUD menggunakan React.  
-Aplikasi ini berjalan di **localhost** dan menyimpan data menggunakan **localStorage** (belum pakai backend).
-
-Project ini fokus ke:
-- CRUD (Create, Read, Update, Delete)
-- UI sederhana tapi rapi
-- Latihan logic React & state management
-
----
-
-## 🚀 Tech Stack
-Project ini dibuat menggunakan:
-- **Vite + React**
-- **Tailwind CSS**
-- **DaisyUI (theme: cupcake)**
-- **React Icons**
-- **pnpm** sebagai package manager
-
----
-
-## ✨ Fitur Utama
-- Tambah catatan lewat popup modal
-- Lihat catatan dalam mode **Grid** & **List**
-- Edit catatan menggunakan popup
-- Preview catatan (scrollable)
-- Hapus catatan dengan konfirmasi
-- Data tersimpan di **localStorage**
-- Responsive & clean UI
-
----
-
-## 💾 Penyimpanan Data
-Semua data catatan disimpan di:
 localStorage
 
 Key yang digunakan:
