@@ -1,16 +1,89 @@
-# React + Vite
+# 📝 MyNotes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MyNotes App adalah aplikasi catatan sederhana berbasis web yang aku buat sebagai latihan sekaligus project CRUD menggunakan React.  
+Aplikasi ini berjalan di **localhost** dan menyimpan data menggunakan **localStorage** (belum pakai backend).
 
-Currently, two official plugins are available:
+Project ini fokus ke:
+- CRUD (Create, Read, Update, Delete)
+- UI sederhana tapi rapi
+- Latihan logic React & state management
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
+Project ini dibuat menggunakan:
+- **Vite + React**
+- **Tailwind CSS**
+- **DaisyUI (theme: cupcake)**
+- **React Icons**
+- **pnpm** sebagai package manager
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Fitur Utama
+- Tambah catatan lewat popup modal
+- Lihat catatan dalam mode **Grid** & **List**
+- Edit catatan menggunakan popup
+- Preview catatan (scrollable)
+- Hapus catatan dengan konfirmasi
+- Data tersimpan di **localStorage**
+- Responsive & clean UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💾 Penyimpanan Data
+Semua data catatan disimpan di:
+# 📝 MyNotes App
+
+MyNotes App adalah aplikasi catatan sederhana berbasis web yang aku buat sebagai latihan sekaligus project CRUD menggunakan React.  
+Aplikasi ini berjalan di **localhost** dan menyimpan data menggunakan **localStorage** (belum pakai backend).
+
+Project ini fokus ke:
+- CRUD (Create, Read, Update, Delete)
+- UI sederhana tapi rapi
+- Latihan logic React & state management
+
+---
+
+## 🚀 Tech Stack
+Project ini dibuat menggunakan:
+- **Vite + React**
+- **Tailwind CSS**
+- **DaisyUI (theme: cupcake)**
+- **React Icons**
+- **pnpm** sebagai package manager
+
+---
+
+## ✨ Fitur Utama
+- Tambah catatan lewat popup modal
+- Lihat catatan dalam mode **Grid** & **List**
+- Edit catatan menggunakan popup
+- Preview catatan (scrollable)
+- Hapus catatan dengan konfirmasi
+- Data tersimpan di **localStorage**
+- Responsive & clean UI
+
+---
+
+## 💾 Penyimpanan Data
+Semua data catatan disimpan di:
+localStorage
+
+Key yang digunakan:
+notesData
+
+
+Karena masih berbasis frontend-only, data akan tetap ada selama localStorage belum dihapus.
+
+---
+
+## 🖥️ Cara Menjalankan Project (Localhost)
+Clone repo ini lalu jalankan:
+
+```bash
+pnpm install
+pnpm run dev
+
+Setelah itu buka:
+http://localhost:5173
