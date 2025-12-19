@@ -42,6 +42,11 @@ notesData
 Karena masih berbasis frontend-only, data akan tetap ada selama localStorage belum dihapus.
 
 ---
+📄 Dokumentasi Tambahan
+
+Dokumentasi proses pengerjaan & penjelasan detail ada di link berikut:
+👉https://docs.google.com/document/d/1hFzJGoGMx7Zq1lBaMI8qzI0Mb4flcbLUSvOhoFaeGTw/edit?usp=sharing
+---
 
 ## 🖥️ Cara Menjalankan Project (Localhost)
 Clone repo ini lalu jalankan:
